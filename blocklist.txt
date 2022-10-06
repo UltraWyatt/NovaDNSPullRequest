@@ -1,0 +1,156 @@
+# Title: AstralDNS
+# Description: A Pi-Hole blocklist that Astral utilizes to run it's DNS service.
+# Website: https://astralmirror.netlify.app/
+# Maintainer: Astral
+
+# [Lightspeed]
+
+0.0.0.0 (\.|^)lightspeedsystems\.com$
+0.0.0.0 (\.|^)lsfilter\.com$
+0.0.0.0 (\.|^)lsaccess\.com$
+0.0.0.0 (\.|^)lsrelayaccess\.com$
+0.0.0.0 (\.|^)relay\.school$
+0.0.0.0 (\.|^)lsmdm\.com$
+0.0.0.0 (\.|^)lsaccess\.me$
+0.0.0.0 (\.|^)lsclassroom\.com$
+0.0.0.0 (\.|^)lsurl\.me$
+0.0.0.0 (\.|^)lightspeed-realtime\.ably\.io$
+0.0.0.0 (\.|^)a-fallback-lightspeed\.ably\.io$
+0.0.0.0 (\.|^)b-fallback-lightspeed\.ably\.io$
+0.0.0.0 (\.|^)c-fallback-lightspeed\.ably\.io$
+0.0.0.0 (\.|^)realtime\.ably\.io$
+0.0.0.0 (\.|^)rest\.ably\.io$
+0.0.0.0 (\.|^)global\.stun\.twilio\.com$
+0.0.0.0 (\.|^)global\.turn\.twilio\.com$
+0.0.0.0 (\.|^)lsagent\.fcps\.org$
+0.0.0.0 (\.|^)hsd1\.ga\.comcast\.net$
+0.0.0.0 lsrelay-extensions-production.s3.amazonaws.com
+0.0.0.0 lsrelay-config-production.s3.amazonaws.com
+0.0.0.0 b16rt683ll.execute-api.us-west-2.amazonaws.com
+0.0.0.0 lsmdm-production.s3.amazonaws.com
+0.0.0.0 lightspeed-apps.s3.amazonaws.com
+0.0.0.0 5rw61tcrl5.execute-api.us-west-2.amazonaws.com
+0.0.0.0 relay-production-sockets-alb-1210277364.us-west-2.elb.amazonaws.com
+0.0.0.0 p7nvu5it0k.execute-api.us-west-2.amazonaws.com
+0.0.0.0 s3-website.us-west-2.amazonaws.com
+0.0.0.0 us-west-2.elb.amazonaws.com
+0.0.0.0 firehose.us-west-2.amazonaws.com
+0.0.0.0 apiproxy-website-nlb-prod-3-ac110f6ae472b85a.elb.eu-west-1.amazonaws.com
+
+# [GoGuardian]
+
+0.0.0.0 (\.|^)goguardian\.com$
+0.0.0.0 (\.|^)pusher\.com$
+0.0.0.0 (\.|^)laptoplookout\.com$
+0.0.0.0 (\.|^)com-default\.ws$
+0.0.0.0 kinesis.us-west-2.amazonaws.com
+0.0.0.0 hosted-extensions.s3.us-west-2.amazonaws.com
+0.0.0.0 x3-report-uploads.s3.us-west-2.amazonaws.com
+0.0.0.0 beacon-report-uploads-prod.s3.us-west-2.amazonaws.com
+
+# [LineWize]
+
+0.0.0.0 (\.|^)familyzone\.io$
+0.0.0.0 (\.|^)linewize\.io$
+0.0.0.0 (\.|^)linewize\.com$
+0.0.0.0 (\.|^)limewize\.net$
+0.0.0.0 (\.|^)linewize\.net$
+0.0.0.0 (\.|^)familyzone\.com$
+
+# [Securly]
+
+0.0.0.0 (\.|^)securly\.com$
+0.0.0.0 (\.|^)tabpilot\.com$
+0.0.0.0 uswest-www-alb-1430906465.us-west-1.elb.amazonaws.com
+
+# [Blocksi]
+
+0.0.0.0 (\.|^)blocksi\.net$
+0.0.0.0 (\.|^)block\.si$
+
+# [iBoss]
+
+0.0.0.0 (\.|^)ibosscloud\.com$
+0.0.0.0 (\.|^)iboss\.si$
+
+# [Cisco]
+
+0.0.0.0 (\.|^)opendns\.com$
+0.0.0.0 (\.|^)umbrella\.cisco\.com$
+0.0.0.0 (\.|^)umbrella\.com$
+0.0.0.0 (\.|^)crl3\.digicert\.com$
+0.0.0.0 (\.|^)crl4\.digicert\.com$
+0.0.0.0 (\.|^)ocsp\.digicert\.com$
+0.0.0.0 (\.|^)s\.tunnels\.ironport\.com$
+
+# [GopherBuddy]
+
+0.0.0.0 (\.|^)amplifiedit\.com$
+0.0.0.0 (\.|^)gopher-buddy-prod\.appspot\.com$
+
+# [ContentKeeper]
+
+0.0.0.0 (\.|^)contentkeeper\.com$
+0.0.0.0 (\.|^)fastvue\.co$
+
+# [FortiGuard]
+
+0.0.0.0 (\.|^)fortinet\.com$
+0.0.0.0 (\.|^)forticlient\.com$
+
+# [FortiNet]
+
+0.0.0.0 (\.|^)fortiguard\.com$
+
+# [Hapara]
+
+0.0.0.0 (\.|^)hapara\.com$
+0.0.0.0 (\.|^)teacherdashboard\.com$
+0.0.0.0 (\.|^)mystudentdashboard\.com$
+0.0.0.0 (\.|^)pusherapp\.com$
+0.0.0.0 (\.|^)pusher\.com$
+0.0.0.0 (\.|^)teacher-db\.appspot\.com$
+0.0.0.0 (\.|^)haparaview\.appspot\.com$
+0.0.0.0 (\.|^)td-admin\.appspot\.com$
+0.0.0.0 (\.|^)td-setup\.appspot\.com$
+0.0.0.0 (\.|^)bomgar\.com$
+
+# [LanSchool]
+
+0.0.0.0 (\.|^)lanschool\.com$
+0.0.0.0 (\.|^)lanschoolair\lenovo.\.com$
+0.0.0.0 (\.|^)lenovosoftware\.com$
+
+# [Net-Ref]
+
+0.0.0.0 (\.|^)net-ref\.com$
+
+# [Palo Alto]
+
+0.0.0.0 (\.|^)paloaltonetworks\.com$
+
+# [LGFL]
+
+0.0.0.0 (\.|^)lgfl\.net$
+0.0.0.0 (\.|^)lgfl\.net$
+0.0.0.0 (\.|^)safehomeschool\.net$
+
+# [Zscaler]
+
+0.0.0.0 (\.|^)zscalerone\.net$
+0.0.0.0 (\.|^)zscaler\.com$
+
+# [Sophos]
+
+0.0.0.0 (\.|^)sophos\.com$
+
+# [Qustodio]
+
+0.0.0.0 (\.|^)qustodio\.com$
+
+# [DyKnow]
+
+0.0.0.0 (\.|^)dyknow\.com$
+
+
+
