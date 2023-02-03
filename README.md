@@ -1,4 +1,3 @@
-# AstralDNS
-import this into PiHole
-if you wanna import as adlist you need https://github.com/mmotti/pihole-regex
-else just manually copy it into blacklist
+# NovaDNS Blocklist
+
+## This is the blocklist we utilize to run our DNS Service NovaDNS. You can import this into pihole with "pihole-regex" or you can manually type it into Adguard Home.
