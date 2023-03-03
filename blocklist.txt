@@ -71,6 +71,7 @@
 ||limewize.net^
 ||linewize.net^
 ||familyzone.com^
+||blocked.syd-1.linewize.net^
 
 # Securly
 
